@@ -1,0 +1,1 @@
+# Facilitado de recuperação de dados Open Finance BR
