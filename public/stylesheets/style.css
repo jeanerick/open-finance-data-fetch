@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+tr {
+  border: #000 solid 1px;
+}
+
+td {
+  border: #000 solid 1px;
+}

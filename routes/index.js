@@ -2,9 +2,12 @@ var express = require("express");
 var fetchData = require("../services/requests.service");
 var router = express.Router();
 
-var INSTITUITIONS_ENDPOINT =
-  "https://data.directory.openbankingbrasil.org.br/participants";
-var bodyData = "";
+
+var INSTITUITIONS_ENDPOINT = 'https://data.directory.openbankingbrasil.org.br/participants';
+
+var endpoint = '/products-services/v1/business-accounts';
+//var endpoint = '/products-services/v1/personal-unarranged-account-overdraft';
+
 
 async function retriveData(param) {
   if (!param) return Promise.resolve([]);
